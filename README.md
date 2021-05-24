@@ -24,7 +24,7 @@ below is the specs of the system used to develope this bot.
 This is not a list of system requirements, this is to be used as reference or for the currious.
 
 OS: Arch Linux X86_64
-Kernel:
+Kernel: 5.12.x
 CPU: ryzen 5 2600
 GPU: NVIDIA GeForce RTX 2070
 Memory: 15.6 GB
