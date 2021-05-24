@@ -67,7 +67,7 @@ async def open_learn(message,arg1='null',arg2='null'):
             return is_learning
         
         else:
-            await message.channel.send("you are not an approved user")
+            await message.channel.send("You are not approved to use this command.")
             return
 
 

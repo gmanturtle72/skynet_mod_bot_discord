@@ -83,8 +83,8 @@ async def get_intents(msg):
 @commands.has_permissions(manage_guild=True)
 async def config(message,arg1=None, arg2=None,):
     if arg1 ==None or arg2==None:
-        embed=discord.Embed(title="configuration menu",description="configurates the bot.")
-        embed.add_field(name="set filter", value="!config setfilter <0,1 or 2> ---0 no filter, 1-explictit filter 2-swaer & explicit")
+        embed=discord.Embed(title="Configuration Menu",description="Config options for skynet.")
+        embed.add_field(name="set filter", value="!config setfilter <0,1 or 2> ---0 no filter, 1-explicit filter 2-swear & explicit")
         await message.channel.send(embed=embed)
     
     if arg1 =="setfilter" and int(arg2)>=0:
@@ -137,7 +137,7 @@ async def on_message(message):
         if config[server]['filter']=="1":
             if "explicit" in tags:
                 try:
-                    await message.author.send("the server you are in has a filter enabled and your message just sent was removed as it matched a filter inplace")
+                    await message.author.send("Your message was removed because it violated a filter set by this server.")
                 except:
                     print('l')
 
@@ -146,7 +146,7 @@ async def on_message(message):
         if config[server]['filter']=="2":
             if "explicit" in tags or "cussing" in tags:
                 try:
-                    await message.author.send("the server you are in has a filter enabled and your message just sent was removed as it matched a filter inplace")
+                    await message.author.send("Your message was removed because it violated a filter set by this server.")
                 except:
                     print('l')
                     
