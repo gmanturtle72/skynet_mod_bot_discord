@@ -34,6 +34,7 @@ Makes changes to the server's configuration. So far !config is only used for set
 ```
 ---
 #### !help
+Shows a basic menu of usable commands.
 
 ## Requirements
 This bot has been tested with python 3.6.x and requires the appropriate libraries to be installed through pip.
