@@ -37,12 +37,12 @@ note: I used Conda to set up the specific enviorment and I strongly recomend any
 
 # Libaries:
 
-# nltk
-# pickle
-# keras
-# numpy
-# dotenv
-# discord
+ nltk
+ pickle
+ keras
+ numpy
+ dotenv
+ discord
 
 # bot commands: 
 this can be accessed using !help:
