@@ -54,10 +54,15 @@ Below is the specs of the system used to develop this bot.
 This is not a list of system requirements, this is to be used as reference or for the curious.
 
 OS: Arch Linux X86_64
+
 Kernel: 5.12.x
+
 CPU: AMD Ryzen 5 2600
+
 GPU: NVIDIA GeForce RTX 2070
+
 Memory: 15.6 GB
+
 SWAP: 8GB
 
 
@@ -70,10 +75,15 @@ note: I used Conda to set up the specific enviorment and I strongly recomend any
 # Libaries:
 
  nltk
+ 
  pickle
+ 
  keras
+ 
  numpy
+ 
  dotenv
+ 
  discord
 
 # bot commands: 
@@ -92,7 +102,6 @@ x can be 0 1 or 2.
  
  2 - swear words and explicite words.
   
- # DISCLAIMER
   
 # DISCLAIMER
 For the bot that you will be able to invite to your server running on my system, some of the choices of words may be biased by my opinion.
