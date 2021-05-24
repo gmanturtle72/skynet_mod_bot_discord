@@ -52,10 +52,13 @@ makes changes to the server config. so far config is only used for applying filt
 
 to do so run !config setfilter <X>
   
-  x can be 0 1 or 2. 
-  0 - nofilter
-  1 - explicit words
-  2 - swear words and explicite words.
+x can be 0 1 or 2. 
+ 
+ 0 - nofilter
+ 
+ 1 - explicit words
+ 
+ 2 - swear words and explicite words.
   
  # DISCLAIMER
   
