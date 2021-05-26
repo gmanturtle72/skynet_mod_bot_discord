@@ -65,44 +65,6 @@ Memory: 15.6 GB
 
 SWAP: 8GB
 
-
-
-=======
-# requirements
-this bot has been tested in python 3.6.x and requires the apropriet libraries to be installed  through pip
-note: I used Conda to set up the specific enviorment and I strongly recomend anyone who wants to clone dose the same
-
-# Libaries:
-
- nltk
- 
- pickle
- 
- keras
- 
- numpy
- 
- dotenv
- 
- discord
-
-# bot commands: 
-this can be accessed using !help:
-
-!config 
-makes changes to the server config. so far config is only used for applying filters.
-
-to do so run !config setfilter <X>
-  
-x can be 0 1 or 2. 
- 
- 0 - nofilter
- 
- 1 - explicit words
- 
- 2 - swear words and explicite words.
-  
-  
 # DISCLAIMER
 For the bot that you will be able to invite to your server running on my system, some of the choices of words may be biased by my opinion.
 Other words may be censored by accident. This is an experimental bot, so only the message will be deleted. If there is a word that is censored for an unfair reason,
